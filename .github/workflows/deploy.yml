@@ -24,4 +24,4 @@ jobs:
         run: aws s3 sync . s3://murugan-git-s3-bucket/ --delete
 
       - name: Invalidate CloudFront Cache
-        run: aws cloudfront create-invalidation --distribution-id YOUR_DISTRIBUTION_ID --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id E3F3XT3A8A30DF --paths "/*"
